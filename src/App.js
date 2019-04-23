@@ -118,11 +118,10 @@ class App extends Component {
     //   if (this.state.hits.indexOf(this.state.word[i]) == -1)
     //     return false;
     // }
-
     // return true;
+    
     var res = true;
     [...this.state.word].forEach( l => {
-      console.log(l);
       if (this.state.hits.indexOf(l) == -1)
         res = false;
     });
