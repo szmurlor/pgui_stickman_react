@@ -1,0 +1,45 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.word li {
+  list-style: none;
+  float: left;
+  padding: 0.5em;
+  margin: 0.3em;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.alphabet li {
+  list-style: none;
+  float: left;
+  padding: 0.5em;
+  margin: 0.3em;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.alphabet li:hover {
+  cursor: pointer;
+}
+
+.alphabet li.mishit {
+  background-color: rgb(127, 127, 127);
+}
+
+.lost {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+
+.buttons {
+  padding: 1em;
+}
